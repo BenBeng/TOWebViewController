@@ -304,7 +304,6 @@ static const float kAfterInteractiveMaxProgressValue    = 0.9f;
     if (self.backButton == nil) {
         self.backButton = [UIButton buttonWithType:buttonType];
         [self.backButton setFrame:buttonFrame];
-        [self.backButton setShowsTouchWhenHighlighted:YES];
     }
     [self.backButton setImage:backButtonImage forState:UIControlStateNormal];
     
@@ -313,7 +312,6 @@ static const float kAfterInteractiveMaxProgressValue    = 0.9f;
     if (self.forwardButton == nil) {
         self.forwardButton  = [UIButton buttonWithType:buttonType];
         [self.forwardButton setFrame:buttonFrame];
-        [self.forwardButton setShowsTouchWhenHighlighted:YES];
     }
     [self.forwardButton setImage:forwardButtonImage forState:UIControlStateNormal];
     
@@ -321,7 +319,6 @@ static const float kAfterInteractiveMaxProgressValue    = 0.9f;
     if (self.reloadStopButton == nil) {
         self.reloadStopButton = [UIButton buttonWithType:buttonType];
         [self.reloadStopButton setFrame:buttonFrame];
-        [self.reloadStopButton setShowsTouchWhenHighlighted:YES];
     }
     
     self.reloadIcon = [UIImage TOWebViewControllerIcon_refreshButtonWithAttributes:self.buttonThemeAttributes];
@@ -333,7 +330,6 @@ static const float kAfterInteractiveMaxProgressValue    = 0.9f;
         if (self.actionButton == nil) {
             self.actionButton = [UIButton buttonWithType:buttonType];
             [self.actionButton setFrame:buttonFrame];
-            [self.actionButton setShowsTouchWhenHighlighted:YES];
         }
         
         [self.actionButton setImage:[UIImage TOWebViewControllerIcon_actionButtonWithAttributes:self.buttonThemeAttributes] forState:UIControlStateNormal];
