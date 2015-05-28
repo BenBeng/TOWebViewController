@@ -22,9 +22,6 @@
 
 #import <UIKit/UIKit.h>
 
-/* Keys for each of the theming properties */
-extern const NSString *TOWebViewControllerButtonTintColor;
-extern const NSString *TOWebViewControllerButtonBevelOpacity;
 
 @interface UIImage (TOWebViewControllerIcons)
 
